@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./scss/main.css">
     <title>Travel Site</title>
   </head>
   <body>
@@ -11,14 +11,14 @@
       <img
         src="./assets/png-transparent-galatasaray-s-k-dream-league-soccer-super-lig-football-logo-football-text-logo-sports-thumbnail.png"
         alt=""
-        class="header logo"
+        class="header__logo"
       />
       <i class="fa-solid" fa-bars fa-2x></i>
       <ul class="header__links">
         <li><button class="header__links--home">Home</button></li>
-        <li><button class="header__links--disabled">Destination</button></li>
-        <li><button class="header__links--disabled">About</button></li>
-        <li><button class="header__links--disabled">Partner</button></li>
+        <li><button disabled class="header__links--disabled">Destination</button></li>
+        <li><button disabled class="header__links--disabled">About</button></li>
+        <li><button disabled class="header__links--disabled">Partner</button></li>
         <li><button class="header__links--login">Login</button></li>
         <li><button class="header__links--register">Register</button></li>
       </ul>
@@ -31,13 +31,13 @@
         <hr />
         <form action="">
           <select name="" id="">
-            <option value="Location"></option></select
+            <option value="Location">Location</option></select
           ><select name="" id="">
-            <option value="Activity"></option></select
+            <option value="Activity">Activity</option></select
           ><select name="" id="">
-            <option value="Grade"></option></select
+            <option value="Grade">Grade</option></select
           ><select name="" id="">
-            <option value="Date"></option>
+            <option value="Date">Date</option>
           </select>
         </form>
         <button class="home__from--button">Explore</button>
